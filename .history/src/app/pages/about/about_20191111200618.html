@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>About</ion-title>
+    <!-- <ion-buttons slot="end">
+      <ion-button (click)="presentPopover($event)">
+        <ion-icon slot="icon-only" name="more"></ion-icon>
+      </ion-button> -->
+    <!-- </ion-buttons> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="about-header">
+    <img src="assets/img/ionic-logo-white.svg" alt="ionic logo">
+  </div>
+  <div class="about-info">
+    <h4 class="ion-padding-start">HR Caucus</h4>
+
+    <ion-list lines="none">
+      <ion-item>
+        <ion-icon name="calendar" slot="start"></ion-icon>
+        <ion-label position="stacked">Date</ion-label>
+        <ion-datetime displayFormat="MMM DD, YYYY" max="2056" [(ngModel)]="conferenceDate"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="pin" slot="start"></ion-icon>
+        <ion-label position="stacked">Location</ion-label>
+        <ion-select>
+          <ion-select-option value="madison" selected>Madison, WI</ion-select-option>
+          <ion-select-option value="austin">Austin, TX</ion-select-option>
+          <ion-select-option value="chicago">Chicago, IL</ion-select-option>
+          <ion-select-option value="seattle">Seattle, WA</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <p class="ion-padding-start ion-padding-end">
+     The Voltech HR Caucus is regarded as a crucial professional confluence among the HR fraternity in India and is an earmarked date on all corporate calendars of Chennai. VHRS conceptualized the HR Caucus back in 2011 to devise a corporate HR Forum comprising of HR professionals, academicians and students who could Assess, Brainstorm, Conceptualize, Discuss or Debate to Elucidate the Facets under the Gamut of Human resource development (HRD) and Industrial Relation (IR).  The vision and objective of the HR Caucus have been perceived by the quest to illuminate three major areas in HR which are Recruitment, Selection & Training. The Caucus aims to build a universally acceptable organizational system that adopts the best practices and cultures from across the industries to create an environment that gives the highest valuation to its workforce and a platform for excellence and exceptional yield. Conceptualized, administered and organized entirely by VHRS, and held annually both at India and overseas, the Caucus solicits participation across a diverse range of professionals encompassing different spheres to expand their knowledge. It creates a learning space for human resources professionals to grow, develop, and connect. At its celebrated annual events, esteemed HR leaders from every major industry in the world have graced the stage to share their insights, challenges, and best practices through engaging and inspiring conversations. VHRS also sponsors a scholarship program where it invests in the future of the profession and celebrates the merit of bright, young minds who will take the sphere to greater heights. The caucus has a distinction of gracing the most exclusive and exquisite hotel properties in Chennai as its venue. At every event, participants and guests are given the very best of VHRS hospitality. The caucus has over the years, enlightened how the HR domain has a long way to go to alter the perceptions of lack of engagement and aptitude among its practitioners pertaining to the inclusion and utilization of various cutting edge technologies which have seen earlier entry into other domains. The caucus has brought out the significant barriers which exist within HR’s ability to both explore and exploit talent for value-adding people insight. The discussions have always remained at the cusp of the technological frontier, bringing into mainstream discussion issues and topics which would become relevant later on. The topics chosen for the caucus have always stimulated highly involved debates that critically focused around three key dimensions of HR: technology, techniques, and talent. Using these as the broad structure, every year, the event has been successful in culminating a series of detailed and priceless discussions. Over the years, the caucus has been successful in bringing together the privileged elite of professionals in the realm of HR from all over the world to discuss and explore the evolving world of Human Investment Management. 
+
+    </p>
+  </div>
+</ion-content>
