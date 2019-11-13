@@ -6,13 +6,13 @@ import { Storage } from '@ionic/storage';
   providedIn: 'root'
 })
 export class UserData {
+
   _favorites: string[] = [];
   HAS_LOGGED_IN = 'hasLoggedIn';
   HAS_SEEN_TUTORIAL = 'hasSeenTutorial';
 
-  constructor(
-    public storage: Storage
-  ) { }
+  constructor(public storage: Storage) { }
+
 
   hasFavorite(sessionName: string): boolean {
     return (this._favorites.indexOf(sessionName) > -1);
@@ -38,6 +38,7 @@ export class UserData {
 
   signup(username: string): Promise<any> {
     return this.storage.set(this.HAS_LOGGED_IN, true).then(() => {
+      console.log(username);
       this.setUsername(username);
       return window.dispatchEvent(new CustomEvent('user:signup'));
     });

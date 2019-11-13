@@ -7,9 +7,9 @@
 </ion-header>
 
 <ion-content fullscreen>
-  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager="false">
-    <ion-slide>
-      <img src="assets/img/logo1.png" class="slide-image" />
+  <!-- <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager="false"> -->
+    <ion-slide class="slide-bg" style="flex: 1;background-color: blue">
+      <!-- <img src="assets/img/logo2.jpg" class="slide-image" /> -->
       <h2 class="slide-title">
         Welcome to
         <b>HR Caucus 2019</b>
@@ -19,16 +19,10 @@
         <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code
         use.
       </p>
-      <!-- <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" /> -->
-      <!-- <h2 class="slide-title">Ready to Play?</h2> -->
-      <!-- <ion-button fill="clear" (click)="startApp()">
-        Continue
-        <ion-icon slot="end" name="arrow-forward"></ion-icon> -->
-      <!-- </ion-button><br> -->
       <ion-button fill="solid" (click)="startApp()">
           Register
           <!-- <ion-icon slot="end" name="arrow-forward"></ion-icon> -->
         </ion-button>
     </ion-slide>
-  </ion-slides>
+  <!-- </ion-slides> -->
 </ion-content>

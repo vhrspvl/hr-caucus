@@ -23,11 +23,11 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'signup',
+        path: 'register',
         children: [
           {
             path: '',
-            loadChildren: () => import('../signup/signup.module').then(m => m.SignUpModule)
+            loadChildren: () => import('../register/register.module').then(m => m.RegisterPageModule)
           }
         ]
       },

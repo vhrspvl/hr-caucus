@@ -30,11 +30,35 @@
 }
 
 .ion-content {
-  background-color: #fae3b7;
+  background-image: url(assets/img/logo2.jpg);
+  background-size: cover;
+  background-position: center;
 
 }
 
 .card {
   background-color: #000; // black
   box-shadow: none;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+
+.myCard{
+  position:relative;
+
+}
+
+.myOverlay{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    z-index: 99;
+    bottom: 0px;
+    opacity: 0.5;
+    background: #000;
+    color: #fff;
+
 }

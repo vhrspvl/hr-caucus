@@ -1,0 +1,51 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Registration</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+  
+    <div class="signup-logo">
+      <img src="assets/img/accolades.png" alt="Accolades Logo">
+    </div>
+    <!-- <h4 class="ion-padding-start">Registration</h4> -->
+    <ion-card>
+      <ion-list lines="inset" inset="true">
+        <ion-item>
+          <ion-label position="stacked" color="primary">Full Name</ion-label>
+          <ion-input  name="fullname" type="text" [(ngModel)]="myData.fullname"></ion-input>
+        </ion-item>
+
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Company</ion-label>
+          <ion-input  name="company" type="text" [(ngModel)]="myData.company"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Address</ion-label>
+          <ion-input  name="address" type="text" [(ngModel)]="myData.address"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Phone #</ion-label>
+          <ion-input  name="phone" type="text" [(ngModel)]="myData.phone"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Email</ion-label>
+          <ion-input  name="email" type="text" [(ngModel)]="myData.email"></ion-input>
+        </ion-item>
+        <div class="ion-padding">
+            <ion-button (click)="onRegister()" type="submit" expand="block">Register</ion-button>
+          </div>
+      </ion-list>
+
+      
+    </ion-card>
+
+</ion-content>

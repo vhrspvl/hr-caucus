@@ -33,3 +33,12 @@ p {
     color: var(--ion-text-color, #000000);
   }
 }
+
+.slide-bg {
+  background-image: url(assets/img/logo2.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+  // height:50%;
+  // width:100%
+}

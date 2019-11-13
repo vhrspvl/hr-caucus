@@ -10,37 +10,114 @@
 <ion-content>
 
   <div class="signup-logo">
-    <img src="assets/img/appicon.svg" alt="Ionic Logo">
+    <img src="assets/img/accolades.png" alt="Accolades Logo">
   </div>
 
   <form #signupForm="ngForm" novalidate>
-    <ion-list lines="none">
-      <ion-item>
-        <ion-label position="stacked" color="primary">Username</ion-label>
-        <ion-input [(ngModel)]="signup.username" name="username" type="text" #username="ngModel" required>
-        </ion-input>
-      </ion-item>
-      <ion-text color="danger">
-        <p [hidden]="username.valid || submitted == false" class="ion-padding-start">
-          Username is required
-        </p>
-      </ion-text>
+    <h4 class="ion-padding-start">Registration</h4>
+    <ion-card>
+      <ion-list lines="inset" inset="true">
 
-      <ion-item>
-        <ion-label position="stacked" color="primary">Password</ion-label>
-        <ion-input [(ngModel)]="signup.password" name="password" type="password" #password="ngModel" required>
-        </ion-input>
-      </ion-item>
-      <ion-text color="danger">
-        <p [hidden]="password.valid || submitted == false" class="ion-padding-start">
-          Password is required
-        </p>
-      </ion-text>
-    </ion-list>
+        <ion-item>
+          <ion-label position="stacked" color="primary">Name</ion-label>
+          <ion-input [(ngModel)]="signup.name" name="name" type="text" #name="ngModel" required>
+          </ion-input>
+        </ion-item>
 
-    <div class="ion-padding">
-      <ion-button (click)="onSignup(signupForm)" type="submit" expand="block">Create</ion-button>
-    </div>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Company</ion-label>
+          <ion-input [(ngModel)]="signup.company" name="company" #company="ngModel" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Address</ion-label>
+          <ion-input [(ngModel)]="signup.address" name="address" #address="ngModel" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Phone #</ion-label>
+          <ion-input [(ngModel)]="signup.phone" name="phone" #phone="ngModel" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Email</ion-label>
+          <ion-input [(ngModel)]="signup.email" name="email" #email="ngModel" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Alternate Phone #</ion-label>
+          <ion-input [(ngModel)]="signup.a_phone" name="a_phone" #a_phone="ngModel" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Alternate Email</ion-label>
+          <ion-input [(ngModel)]="signup.a_email" name="a_email" #a_email="ngModel" required>
+          </ion-input>
+        </ion-item>
+
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Head of HR (Name & Title)</ion-label>
+          <ion-input [(ngModel)]="signup.headhr" name="headhr" #headhr="ngModel" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Head of HR (Email & Phone)</ion-label>
+          <ion-input [(ngModel)]="signup.headhr_email" name="headhr_email" #headhr_email="ngModel" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="stacked" color="primary">Company Employees</ion-label>
+            <ion-input [(ngModel)]="signup.comp_emp" name="comp_emp" #comp_emp="ngModel" required>
+            </ion-input>
+          </ion-item>
+  
+          <ion-item>
+            <ion-label position="stacked" color="primary">HR Dept Employees</ion-label>
+            <ion-input [(ngModel)]="signup.hr_emp" name="hr_emp" #hr_emp="ngModel" required>
+            </ion-input>
+          </ion-item>
+
+          <ion-item>
+              <ion-label position="stacked" color="primary">Company Industry</ion-label>
+              <ion-input [(ngModel)]="signup.comp_ind" name="comp_ind" #comp_ind="ngModel" required>
+              </ion-input>
+            </ion-item>
+    
+            <ion-item>
+              <ion-label position="stacked" color="primary">Type of Entity</ion-label>
+              <ion-input [(ngModel)]="signup.entity_type" name="entity_type" #entity_type="ngModel" required>
+              </ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label position="stacked" color="primary">Nature of Ownership</ion-label>
+                <ion-input [(ngModel)]="signup.ownership" name="ownership" #ownership="ngModel" required>
+                </ion-input>
+              </ion-item>
+  
+              <ion-item>
+                  <ion-label position="stacked" color="primary">Date of Incorporation</ion-label>
+                  <ion-input [(ngModel)]="signup.doi" name="doi" #doi="ngModel" required>
+                  </ion-input>
+                </ion-item>
+
+
+      </ion-list>
+
+      <div class="ion-padding">
+        <ion-button (click)="onSignup(signupForm)" type="submit" expand="block">Create</ion-button>
+      </div>
+    </ion-card>
+
   </form>
 
 </ion-content>
