@@ -27,8 +27,8 @@
         </ion-item>
 
         <ion-item>
-          <ion-label position="stacked" color="primary">Address</ion-label>
-          <ion-input  name="address" type="text" [(ngModel)]="myData.address"></ion-input>
+          <ion-label position="stacked" color="primary">Designation</ion-label>
+          <ion-input  name="Designation" type="text" [(ngModel)]="myData.designation"></ion-input>
         </ion-item>
 
         <ion-item>
@@ -40,6 +40,12 @@
           <ion-label position="stacked" color="primary">Email</ion-label>
           <ion-input  name="email" type="text" [(ngModel)]="myData.email"></ion-input>
         </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked" color="primary">Nationality</ion-label>
+          <ion-input  name="Nationality" type="text" [(ngModel)]="myData.nationality"></ion-input>
+        </ion-item>
+
         <div class="ion-padding">
             <ion-button (click)="onRegister()" type="submit" expand="block">Register</ion-button>
           </div>

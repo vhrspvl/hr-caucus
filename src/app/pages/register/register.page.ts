@@ -13,6 +13,12 @@ export class RegisterPage {
 
   constructor(public http: HttpClient, public router: Router) {
     this.myData.fullname = '';
+    this.myData.company='';
+    this.myData.designation='';
+    this.myData.phone='';
+    this.myData.email='';
+    this.myData.nationality='';
+    
     this.myData.response = ''
     this.http = http;
   }
@@ -27,12 +33,27 @@ export class RegisterPage {
 
     let postData = {
       "name1": this.myData.fullname,
+      "company": this.myData.company,
+      "designation": this.myData.designation,
+      "phone": this.myData.phone,
+      "email": this.myData.email,
+      "nationality": this.myData.nationality,
+
       // "email": "customer004@email.com",
       // "tel": "0000252525"
     }
-    var url = 'http://localhost:8008/api/resource/Registration';
-    // var myData = JSON.stringify({name: this.myData.name});
-    this.http.post(url,postData, options)
+    var url = 'http://erp.voltechgroup.com/api/resource/HR Caucus Registration';
+    var myData = JSON.stringify({
+      // name: this.myData.name
+      "full_name": this.myData.fullname,
+      "company": this.myData.company,
+      "designation": this.myData.designation,
+      "phone": this.myData.phone,
+      "email": this.myData.email,
+      "nationality": this.myData.nationality,
+
+    });
+    this.http.post(url,myData, options)
       .subscribe(data => {
         this.myData.response = data["_body"];
         this.router.navigateByUrl('/app/tabs/schedule');

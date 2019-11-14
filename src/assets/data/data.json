@@ -1,53 +1,18 @@
 {
   "schedule": [
     {
-      "date": "2047-05-17",
+      "date": "2019-12-11",
       "groups": [
         {
-          "time": "8:00 am",
+          "time": "9:00 am",
           "sessions": [
             {
-              "name": "Breakfast",
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
-              "location": "Dining Hall",
-              "tracks": ["Food"],
-              "id": "1"
-            }
-          ]
-        },
-        {
-          "time": "9:15 am",
-          "sessions": [
-            {
-              "name": "Getting Started with Ionic",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Ted Turtle"],
-              "timeStart": "9:30 am",
-              "timeEnd": "9:45 am",
-              "tracks": ["Ionic"],
-              "id": "2"
-            },
-            {
-              "name": "Ionic Tooling",
-              "location": "Executive Ballroom",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "9:45 am",
+              "name": "Registration",
+              "timeStart": "9:00 am",
               "timeEnd": "10:00 am",
-              "tracks": ["Tooling"],
-              "id": "3"
-            },
-            {
-              "name": "University of Ionic",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Ellie Elephant"],
-              "timeStart": "9:15 am",
-              "timeEnd": "9:30 am",
-              "tracks": ["Ionic"],
-              "id": "4"
+              "location": "Reception",
+              "tracks": ["Registration"],
+              "id": "1"
             }
           ]
         },
@@ -55,7 +20,83 @@
           "time": "10:00 am",
           "sessions": [
             {
-              "name": "Migrating to Ionic",
+              "name": "Lighting of Lamp",
+              "location": "Hall name",
+              "description": "discription",
+              "speakerNames": ["Mr.M.Umapathi"],
+              "timeStart": "10:00 am",
+              "timeEnd": "10:05 am",
+              "tracks": ["Lighting of Lamp"],
+              "id": "2"
+            },
+            {
+              "name": "Welcome Address",
+              "location": "Executive Ballroom",
+              "description":" Welcome Address by Mr.M.Umapathi, Managing Director & Chairman, Voltech Group of Companies", 
+              "speakerNames": ["Mr.M.Umapathi"],
+              "timeStart": "10:05 am",
+              "timeEnd": "10:15 am",
+              "tracks": ["Tooling"],
+              "id": "3"
+            },
+            {
+              "name": "Honoring Guests on Dias",
+              "location": "Hall 3",
+              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "speakerNames": ["Ellie Elephant"],
+              "timeStart": "10:15 am",
+              "timeEnd": "10:25 am",
+              "tracks": ["Ionic"],
+              "id": "4"
+            },
+            {
+              "name": "Presidential Address by <<TBC>> ",
+              "location": "Hall 3",
+              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "speakerNames": ["Ellie Elephant"],
+              "timeStart": "10:25 am",
+              "timeEnd": "10:35 am",
+              "tracks": ["Ionic"],
+              "id": "4"
+            },
+            {
+              "name": "Life Time Achievement Award Honoring ",
+              "location": "Hall 3",
+              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "speakerNames": ["Ellie Elephant"],
+              "timeStart": "10:35 am",
+              "timeEnd": "10:45 am",
+              "tracks": ["Ionic"],
+              "id": "4"
+            },
+            {
+              "name": "Special Speech by <<TBC>>",
+              "location": "Hall 3",
+              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "speakerNames": ["Ellie Elephant"],
+              "timeStart": "10:45 am",
+              "timeEnd": "10:55 am",
+              "tracks": ["Ionic"],
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "sessions": [
+            {
+              "name": "Networking Tea Break",
+              "timeStart": "10:55 am",
+              "timeEnd": "11:05 am",
+              "location": "Reception",
+              "tracks": ["Networking Tea Break"],
+              "id": "1"
+            }
+          ]
+        },
+        {
+          "sessions": [
+            {
+              "name": "Panel Discussion – INDUSTRY 4.0 - DEVELOPING RESOURCES FOR FUTURE",
               "location": "Hall 1",
               "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
               "speakerNames": ["Eva Eagle", "Lionel Lion"],
@@ -63,181 +104,258 @@
               "timeEnd": "10:15 am",
               "tracks": ["Ionic"],
               "id": "5"
-            },
+            } 
+          ]
+        },
+        {
+          "sessions": [
             {
-              "name": "What's New in Angular",
+              "name": "Speech by Dr.C.Jayakumar",
               "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Key Note Speech by Dr.C.Jayakumar, Head - Corprorate Divisional HR, L&T Construction, India",
               "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "10:15 am",
-              "timeEnd": "10:30 am",
+              "timeStart": "11 :05 am",
+              "timeEnd": "11:15 am",
               "tracks": ["Angular"],
               "id": "6"
             },
             {
-              "name": "The Evolution of Ionicons",
+              "name": "Speech by Mr. Rabah Bu Hamdan",
               "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Mr. Rabah Bu Hamdan, Group CHRO, National Aviation Services, Kuwait",
               "speakerNames": ["Isabella Iguana", "Eva Eagle"],
-              "timeStart": "10:15 am",
-              "timeEnd": "10:30 am",
+              "timeStart": "11:15 am",
+              "timeEnd": "11 :25 am",
               "tracks": ["Design"],
               "id": "7"
             },
             {
-              "name": "Ionic Pro",
+              "name": "Speech by Mr. Walid Behairy",
               "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Mr. Walid Behairy, Senior HR Manager, Yusuf A. Alghanim & Sons w.l.l, Kuwait",
               "speakerNames": ["Charlie Cheetah"],
-              "timeStart": "10:45 am",
-              "timeEnd": "11:00 am",
+              "timeStart": "11:25 am",
+              "timeEnd": "11:35 am",
+              "tracks": ["Services"],
+              "id": "8"
+            },
+            {
+              "name": "Speech by Mr. Dheya Ali Al Asfoor",
+              "location": "Grand Ballroom A",
+              "description": "Mr. Dheya Ali Al Asfoor, CEO, MC Six Industrial Services, Bahrain",
+              "speakerNames": ["Charlie Cheetah"],
+              "timeStart": "11:35 am",
+              "timeEnd": "11:45 am",
+              "tracks": ["Services"],
+              "id": "8"
+            },
+            {
+              "name": "Speech by Ms. Wafaa Al-Shatti",
+              "location": "Grand Ballroom A",
+              "description": "Ms. Wafaa Al-Shatti, Manager HR, CPVEN S. A , Kuwait",
+              "speakerNames": ["Charlie Cheetah"],
+              "timeStart": "11:45 am",
+              "timeEnd": "11:55 am",
               "tracks": ["Services"],
               "id": "8"
             }
           ]
         },
         {
-          "time": "11:00 am",
           "sessions": [
             {
-              "name": "Ionic Workshop",
+              "name": "Concluding Note by Moderator ",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Concluding Note by Moderator Question & Answer Session",
+              "speakerNames": ["Eva Eagle", "Lionel Lion"],
+              "timeStart": "11:55 am",
+              "timeEnd": "12:05 pm",
+              "tracks": ["Ionic"],
+              "id": "5"
+            } 
+          ]
+        },
+        {
+          "time": "12:05 am",
+          "sessions": [
+            {
+              "name": "Panel Discussion",
+              "location": "Hall 1",
+              "description": "Panel Discussion – LEVERAGING DIGITILIZATION AND ANALYTICS IN HR.",
               "speakerNames": ["Karl Kitten", "Lionel Lion"],
-              "timeStart": "11:00 am",
-              "timeEnd": "11:45 am",
+              "timeStart": "12:05 pm",
+              "timeEnd": "01:05 pm",
               "tracks": ["Workshop"],
               "id": "9"
-            },
+            }
+          ]
+        },
+        {
+          "sessions": [
             {
-              "name": "Community Interaction",
+              "name": "Key Note Speech by Mr.Amaladoss Maria Susai",
               "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Key Note Speech by Mr.Amaladoss Maria Susai, Director – Human Resource, Tempel Precision Metal Products, India",
               "speakerNames": ["Lionel Lion", "Gino Giraffe"],
-              "timeStart": "11:30 am",
-              "timeEnd": "11:50 am",
+              "timeStart": "12:05 pm",
+              "timeEnd": "12:15 pm",
               "tracks": ["Communication"],
               "id": "10"
             },
             {
-              "name": "Navigation in Ionic",
+              "name": "Speech by Mr. Sajeev Nair",
               "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Mr. Sajeev Nair, GM HR, Galfar Engineering, Oman.",
               "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
-              "timeStart": "11:30 am",
-              "timeEnd": "12:00 pm",
+              "timeStart": "12:15 pm",
+              "timeEnd": "12:25 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Speech by Mr.Ahamed Hatoum",
+              "location": "Grand Ballroom A",
+              "description": "Mr.Ahamed Hatoum HR Manager Kuwait Danish Dairy, Kuwait",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "12:25 pm",
+              "timeEnd": "12:35 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Speech by Mr. Yasser Abdel Mouty",
+              "location": "Grand Ballroom A",
+              "description": "Mr. Yasser Abdel Mouty, Corporate HR Director, Mohammed N.Al-Hajery & Sons Company, Kuwait",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "12:35 pm",
+              "timeEnd": "12:45 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Speech by Ms. Sara Taha",
+              "location": "Grand Ballroom A",
+              "description": "Ms. Sara Taha HR & Admin Manager, Emirates Building System Co. LLC, UAE",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "12:45 pm",
+              "timeEnd": "12:55 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Concluding Note by Moderator ",
+              "location": "Grand Ballroom A",
+              "description": "Concluding Note by Moderator Question & Answer Session",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "12:55 pm",
+              "timeEnd": "1:05 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Product Launch ",
+              "location": "Grand Ballroom A",
+              "description": "Product Launch",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "13:05 pm",
+              "timeEnd": "13:10 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Networking Lunch ",
+              "location": "Grand Ballroom A",
+              "description": "Networking Lunch",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "13:10 pm",
+              "timeEnd": "14:00 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Speech About Accolades & Jury Team",
+              "location": "Grand Ballroom A",
+              "description": "About Accolades & Jury Team by Mr.Amaladoss, Tempel Precision",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "14:00 pm",
+              "timeEnd": "14:05 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Category - Employee Engagement– Presentation",
+              "location": "Grand Ballroom A",
+              "description": "Category - Employee Engagement – Presentation",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "14:05 pm",
+              "timeEnd": "14:15 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Category - Employee Engagement - Winner Announcement & Awarding",
+              "location": "Grand Ballroom A",
+              "description": "Category - Employee Engagetment - Winner Announcement & Awarding",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "14:15 pm",
+              "timeEnd": "14:20 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Category - Workplace Safety - Presentation",
+              "location": "Grand Ballroom A",
+              "description": "Category - Workplace Safety - Presentation",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "14:20 pm",
+              "timeEnd": "14:30 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "Category - Workplace Safety - Winner Announcement & Awarding",
+              "location": "Grand Ballroom A",
+              "description": "Category - Workplace Safety - Winner Announcement & Awarding",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "14:30 pm",
+              "timeEnd": "14:35 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            
+            {
+              "name": "HR Professional of the Year ",
+              "location": "Grand Ballroom A",
+              "description": "Category - HR Professional of the Year – Presentation & Awarding",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "14:35 pm",
+              "timeEnd": "14:50 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            {
+              "name": "HR Rising Star",
+              "location": "Grand Ballroom A",
+              "description": "Category -  HR Rising Star – Presentation & Awarding",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "14:50 pm",
+              "timeEnd": "15:05 pm",
+              "tracks": ["Navigation"],
+              "id": "11"
+            },
+            
+            {
+              "name": "Valedictory & Vote of Thanks",
+              "location": "Grand Ballroom A",
+              "description": "Valedictory & Vote of Thanks",
+              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+              "timeStart": "15:05 pm",
+              "timeEnd": "15:15 pm",
               "tracks": ["Navigation"],
               "id": "11"
             }
-          ]
-        },
-        {
-          "time": "12:00 pm",
-          "sessions": [
-            {
-              "name": "Lunch",
-              "location": "Dining Hall",
-              "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:00 pm",
-              "tracks": ["Food"],
-              "id": "12"
-            }
-          ]
-        },
-        {
-          "time": "1:00 pm",
-          "sessions": [
-            {
-              "name": "Ionic in the Enterprise",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Paul Puppy"],
-              "timeStart": "1:00 pm",
-              "timeEnd": "1:15 pm",
-              "tracks": ["Communication"],
-              "id": "13"
-            },
-            {
-              "name": "Ionic Worldwide",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Gino Giraffe"],
-              "timeStart": "1:15 pm",
-              "timeEnd": "1:30 pm",
-              "tracks": ["Communication"],
-              "id": "14"
-            },
-            {
-              "name": "The Ionic Package",
-              "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Molly Mouse", "Burt Bear"],
-              "timeStart": "1:30 pm",
-              "timeEnd": "2:00 pm",
-              "tracks": ["Services"],
-              "id": "15"
-            }
-          ]
-        },
-        {
-          "time": "2:00 pm",
-          "sessions": [
-            {
-              "name": "Push Notifications in Ionic",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Burt Bear", "Charlie Cheetah"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "2:30 pm",
-              "tracks": ["Services"],
-              "id": "16"
-            },
-            {
-              "name": "Ionic Documentation",
-              "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Donald Duck"],
-              "timeStart": "2:30 pm",
-              "timeEnd": "2:45 pm",
-              "tracks": ["Documentation"],
-              "id": "17"
-            },
-            {
-              "name": "UX in Ionic",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Isabella Iguana", "Ellie Elephant"],
-              "timeStart": "2:45 pm",
-              "timeEnd": "3:00 pm",
-              "tracks": ["Design"],
-              "id": "18"
-            }
-          ]
-        },
-        {
-          "time": "3:00",
-          "sessions": [
-            {
-              "name": "Angular Directives in Ionic",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Ted Turtle"],
-              "timeStart": "3:00 pm",
-              "timeEnd": "3:30 pm",
-              "tracks": ["Angular"],
-              "id": "19"
-            },
-            {
-              "name": "Mobile States",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "3:45 pm",
-              "tracks": ["Navigation"],
-              "id": "20"
-            }
+            
+
           ]
         }
       ]
@@ -246,137 +364,127 @@
 
   "speakers": [
     {
-      "name": "Burt Bear",
+      "name": "Ms. Nitu Ajay",
+      "designation": "Unit Head HR",
       "profilePic": "assets/img/speakers/bear.jpg",
       "twitter": "ionicframework",
-      "about": "Burt is a Bear.",
-      "location": "Everywhere",
-      "email": "burt@example.com",
-      "phone": "+1-541-754-3010",
+      "company": "Alghanim International",
+      "location": "Kuwait",
+      "email": " construction@falghanim.com ",
+      "phone": "+965 22258360",
       "id": "1"
     },
     {
-      "name": "Charlie Cheetah",
+      "name": "Ms. Wafaa Al-Shatti ",
+      "designation": "Manager HR",
       "profilePic": "assets/img/speakers/cheetah.jpg",
       "twitter": "ionicframework",
-      "about": "Charlie is a Cheetah.",
-      "location": "Everywhere",
+      "company": "CPVEN S. A",
+      "location": "Kuwait",
       "email": "charlie@example.com",
       "phone": "+1-541-754-3010",
       "id": "2"
     },
     {
-      "name": "Donald Duck",
+      "name": "Mr.Ahamed Hatoum",
+      "designation": "HR Manager",
       "profilePic": "assets/img/speakers/duck.jpg",
       "twitter": "ionicframework",
-      "about": "Donald is a Duck.",
-      "location": "Everywhere",
+      "company": "Kuwait Danish Dairy",
+      "location": "Kuwait",
       "email": "donald@example.com",
       "phone": "+1-541-754-3010",
       "id": "3"
     },
     {
-      "name": "Eva Eagle",
+      "name": "Mr. Rabah Bu Hamdan",
+      "designation": "Group CHRO",
       "profilePic": "assets/img/speakers/eagle.jpg",
       "twitter": "ionicframework",
-      "about": "Eva is an Eagle.",
-      "location": "Everywhere",
+      "company": "National Aviation Services",
+      "location": "Kuwait",
       "email": "eva@example.com",
       "phone": "+1-541-754-3010",
       "id": "4"
     },
     {
-      "name": "Ellie Elephant",
+      "name": "Mr. Walid Behairy",
+      "designation": "Senior HR Manager ",
       "profilePic": "assets/img/speakers/elephant.jpg",
       "twitter": "ionicframework",
-      "about": "Ellie is an Elephant.",
-      "location": "Everywhere",
+      "company": "Yusuf A. Alghanim & Sons w.l.l",
+      "location": "Kuwait",
       "email": "ellie@example.com",
       "phone": "+1-541-754-3010",
       "id": "5"
     },
     {
-      "name": "Gino Giraffe",
+      "name": "Mr. Yasser Abdel Mouty",
+      "designation": "Corporate HR Director",
       "profilePic": "assets/img/speakers/giraffe.jpg",
       "twitter": "ionicframework",
-      "about": "Gino is a Giraffe.",
-      "location": "Everywhere",
+      "company": "Mohammed N.Al-Hajery & Sons Company",
+      "location": "Kuwait",
       "email": "gino@example.com",
       "phone": "+1-541-754-3010",
       "id": "6"
     },
     {
-      "name": "Isabella Iguana",
+      "name": "Mr. Amaladoss",
+      "designation": "Director",
       "profilePic": "assets/img/speakers/iguana.jpg",
       "twitter": "ionicframework",
-      "about": "Isabella is an Iguana.",
-      "location": "Everywhere",
+      "company": "Temple Precision",
+      "location": "India",
       "email": "isabella@example.com",
       "phone": "+1-541-754-3010",
       "id": "7"
     },
     {
-      "name": "Karl Kitten",
+      "name": "Dr.C.Jayakumar",
+      "designation": "HR Head",
       "profilePic": "assets/img/speakers/kitten.jpg",
       "twitter": "ionicframework",
-      "about": "Karl is a Kitten.",
-      "location": "Everywhere",
+      "company": "L&T ECC",
+      "location": "India",
       "email": "karl@example.com",
       "phone": "+1-541-754-3010",
       "id": "8"
     },
     {
-      "name": "Lionel Lion",
+      "name": "Mr. Sajeev Nair",
+      "designation": "GM HR",
       "profilePic": "assets/img/speakers/lion.jpg",
       "twitter": "ionicframework",
-      "about": "Lionel is a Lion.",
-      "location": "Everywhere",
+      "company": "Galfar",
+      "location": "Oman",
       "email": "lionel@example.com",
       "phone": "+1-541-754-3010",
       "id": "9"
     },
     {
-      "name": "Molly Mouse",
+      "name": "Ms. Sara Taha",
+      "designation": "HR & Admin Manager",
       "profilePic": "assets/img/speakers/mouse.jpg",
       "twitter": "ionicframework",
-      "about": "Molly is a Mouse.",
-      "location": "Everywhere",
+      "company": "Emirates Building System Co. LLC",
+      "location": "UAE",
       "email": "molly@example.com",
       "phone": "+1-541-754-3010",
       "id": "10"
     },
     {
-      "name": "Paul Puppy",
+      "name": "Mr. Dheya Ali Al Asfoor",
+      "designation": "CEO",
       "profilePic": "assets/img/speakers/puppy.jpg",
       "twitter": "ionicframework",
-      "about": "Paul is a Puppy.",
-      "location": "Everywhere",
+      "company": "MC Six Industrial Services",
+      "location": "Bahrain",
       "email": "paul@example.com",
       "phone": "+1-541-754-3010",
       "id": "11"
-    },
-    {
-      "name": "Rachel Rabbit",
-      "profilePic": "assets/img/speakers/rabbit.jpg",
-      "twitter": "ionicframework",
-      "about": "Rachel is a Rabbit.",
-      "location": "Everywhere",
-      "email": "rachel@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "12"
-    },
-    {
-      "name": "Ted Turtle",
-      "profilePic": "assets/img/speakers/turtle.jpg",
-      "twitter": "ionicframework",
-      "about": "Ted is a Turtle.",
-      "location": "Everywhere",
-      "email": "ted@example.com",
-      "phone": "+1-541-754-3010",
-      "id": "13"
     }
   ],
-
   "map": [
     {
       "name": "Holiday Inn, Kuwait",
