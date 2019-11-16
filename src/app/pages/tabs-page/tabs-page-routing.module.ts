@@ -32,6 +32,15 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'accolades-register',
+        children: [
+          {
+            path: '',
+            loadChildren: () => import('../accolades-register/accolades-register.module').then(m => m.AccoladesRegisterPageModule)
+          }
+        ]
+      },
+      {
         path: 'speakers',
         children: [
           {

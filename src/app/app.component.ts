@@ -38,7 +38,12 @@ export class AppComponent implements OnInit {
       title: 'About',
       url: '/app/tabs/about',
       icon: 'information-circle'
-    }
+    },
+    {
+    title: 'Accolades Registration',
+    url: '/app/tabs/accolades-register',
+    icon: 'md-clipboard'
+  }
   ];
   loggedIn = false;
   dark = false;

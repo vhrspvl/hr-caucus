@@ -32,6 +32,14 @@ const routes: Routes = [
   {
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'pages',
+    loadChildren: () => import('./pages/pages.module').then( m => m.PagesPageModule)
+  },
+  {
+    path: 'accolades-register',
+    loadChildren: () => import('./pages/accolades-register/accolades-register.module').then( m => m.AccoladesRegisterPageModule)
   }
 ];
 
