@@ -1,103 +1,144 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>accolades_register</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Accolades Registration</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
-    <div class="signup-logo">
-        <img src="assets/img/accolades.png" alt="Accolades Logo">
+  <div class="signup-logo">
+    <img src="assets/img/accolades.png" alt="Accolades Logo">
+  </div>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>General Info</ion-card-title>
+    </ion-card-header>
+    <ion-list lines="inset" inset="true">
+      <ion-item>
+        <ion-label position="stacked" color="primary">Name</ion-label>
+        <ion-input name="name" type="text" [(ngModel)]="myData.name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Company</ion-label>
+        <ion-input name="company" type="text" [(ngModel)]="myData.company"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Title</ion-label>
+        <ion-input name="title" type="text" [(ngModel)]="myData.title"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Address</ion-label>
+        <ion-input name="address" type="text" [(ngModel)]="myData.address"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Email</ion-label>
+        <ion-input name="email" type="text" [(ngModel)]="myData.email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Phone #</ion-label>
+        <ion-input name="phone" type="text" [(ngModel)]="myData.phone"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Alternate Contact</ion-label>
+        <ion-input name="alternate_contact" type="text" [(ngModel)]="myData.alternate_contact"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Alternate Email</ion-label>
+        <ion-input name="alternate_email" type="text" [(ngModel)]="myData.alternate_email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Alternate Phone</ion-label>
+        <ion-input name="alternate_phone" type="text" [(ngModel)]="myData.alternate_phone"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Head of HR(Name & Title)</ion-label>
+        <ion-input name="hr_name_title " type="text" [(ngModel)]="myData.hr_name_title"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Head of HR(Email & Phone)</ion-label>
+        <ion-input name="hr_email_phone" type="text" [(ngModel)]="myData.hr_email_phone"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Company Employees</ion-label>
+        <ion-input name="company_employees" type="text" [(ngModel)]="myData.company_employees"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">HR Dept Employees</ion-label>
+        <ion-input name="hr_dept_employee" type="text" [(ngModel)]="myData.hr_dept_employee"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Company Industry</ion-label>
+        <ion-input name="company_industry" type="text" [(ngModel)]="myData.company_industry"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Type of Entity</ion-label>
+        <ion-input name="type_of_entity" type="text" [(ngModel)]="myData.type_of_entity"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Nature of ownership</ion-label>
+        <ion-input name="nature_of_ownership" type="text" [(ngModel)]="myData.nature_of_ownership"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Date of Incorporation</ion-label>
+        <ion-input name="date_of_incorporation" type="text" [(ngModel)]="myData.date_of_incorporation"></ion-input>
+      </ion-item>
+    </ion-list>
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Award Category</ion-card-subtitle>
+      <ion-card-title>Organisation</ion-card-title>
+    </ion-card-header>
+    <ion-radio-group>
+      <ion-item>
+        <ion-label class="ion-text-wrap" color="primary">Excellence in Employment Engagment Strategy</ion-label>
+        <ion-radio slot="end" value="True" name="excellence" [(ngModel)]="excellence" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-wrap" color="primary">Best Practices of Work Safety</ion-label>
+        <ion-radio slot="end" value="True" name="best_practice" [(ngModel)]="best_practice"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-card>
+  <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Award Category</ion-card-subtitle>
+        <ion-card-title>HR Professionals</ion-card-title>
+      </ion-card-header>
+      <ion-radio-group>
+        <ion-item>
+          <ion-label class="ion-text-wrap" color="primary">HR Professional of the Year</ion-label>
+          <ion-radio slot="end" value="True" mode="ios" name="excellence" [(ngModel)]="excellence" checked></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label class="ion-text-wrap" color="primary">HR Rising Star</ion-label>
+          <ion-radio slot="end" value="True" mode="ios" name="best_practice" [(ngModel)]="best_practice"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card>
+    <div class="ion-padding">
+        <ion-button (click)="onRegister()" type="submit" expand="block">Register</ion-button>
       </div>
-
-    <ion-card>
-        <ion-list lines="inset" inset="true">
-          <ion-item>
-            <ion-label position="stacked" color="primary">Name</ion-label>
-            <ion-input  name="name" type="text" [(ngModel)]="myData.name"></ion-input>
-          </ion-item>
-
-          <ion-item>
-              <ion-label position="stacked" color="primary">Company</ion-label>
-              <ion-input  name="company" type="text" [(ngModel)]="myData.company"></ion-input>
-          </ion-item>
-
-          <ion-item>
-              <ion-label position="stacked" color="primary">Title</ion-label>
-              <ion-input  name="title" type="text" [(ngModel)]="myData.title"></ion-input>
-          </ion-item>
-
-          <ion-item>
-              <ion-label position="stacked" color="primary">Address</ion-label>
-              <ion-input  name="address" type="text" [(ngModel)]="myData.address"></ion-input>
-          </ion-item>
-
-          <ion-item>
-              <ion-label position="stacked" color="primary">Email</ion-label>
-              <ion-input  name="email" type="text" [(ngModel)]="myData.email"></ion-input>
-          </ion-item>
-
-          <ion-item>
-              <ion-label position="stacked" color="primary">Phone #</ion-label>
-              <ion-input  name="phone" type="text" [(ngModel)]="myData.phone"></ion-input>
-          </ion-item>
-
-           <ion-item>
-                <ion-label position="stacked" color="primary">Alternate Contact</ion-label>
-                <ion-input  name="alternate contact" type="text" [(ngModel)]="myData.alternate contact"></ion-input>
-            </ion-item>
-
-            <ion-item>
-                <ion-label position="stacked" color="primary">Alternate Email</ion-label>
-                <ion-input  name="alternate email" type="text" [(ngModel)]="myData.alternate email"></ion-input>
-            </ion-item>
-
-             <ion-item>
-                <ion-label position="stacked" color="primary">Alternate Phone</ion-label>
-                <ion-input  name="alternate phone" type="text" [(ngModel)]="myData.alternate phone"></ion-input>
-            </ion-item>
-
-             <ion-item>
-                <ion-label position="stacked" color="primary">Head of HR(Name & Title)</ion-label>
-                <ion-input  name="head of hr name and title " type="text" [(ngModel)]="myData.head of hr name and title"></ion-input>
-              </ion-item>
-
-              <ion-item>
-                  <ion-label position="stacked" color="primary">Head of HR(Email & Phone)</ion-label>
-                 <ion-input  name="head of hr email and phone" type="text" [(ngModel)]="myData.head of hr email and phone"></ion-input>
-              </ion-item>
-
-                <ion-item>
-                    <ion-label position="stacked" color="primary">Company Employees</ion-label>
-                    <ion-input  name="company employees" type="text" [(ngModel)]="myData.company employees"></ion-input>
-                </ion-item>
-
-                <ion-item>
-                    <ion-label position="stacked" color="primary">HR Dept Employees</ion-label>
-                    <ion-input  name="hr dept employees" type="text" [(ngModel)]="myData.hr dept employees"></ion-input>
-                </ion-item>  
-
-                <ion-item>
-                    <ion-label position="stacked" color="primary">Company Industry</ion-label>
-                    <ion-input  name="company industry" type="text" [(ngModel)]="myData.company industry"></ion-input>
-                  </ion-item>
-
-                  <ion-item>
-                      <ion-label position="stacked" color="primary">Type of Entity</ion-label>
-                      <ion-input  name="type of entity" type="text" [(ngModel)]="myData.type of entity"></ion-input>
-                    </ion-item>
-
-                  <ion-item>
-                        <ion-label position="stacked" color="primary">Nature of ownership</ion-label>
-                        <ion-input  name="nature of ownership" type="text" [(ngModel)]="myData.nature of ownership"></ion-input>
-                  </ion-item>
-
-                    <ion-item>
-                        <ion-label position="stacked" color="primary">Date of Incorporation</ion-label>
-                        <ion-input  name="date of incorporation" type="text" [(ngModel)]="myData.date of incorporation"></ion-input>
-                     </ion-item>
-
-
-         </ion-list>
-     </ion-card>
 </ion-content>
